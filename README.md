@@ -1,17 +1,22 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/mastervondoom/mastervondoom/main/assets/comic-banner.svg" width="100%" alt="Comic banner"/>
+<table>
+<tr>
+<td align="center" bgcolor="#FFFDF5">
+
+<img src="https://raw.githubusercontent.com/mastervondoom/mastervondoom/main/assets/comic-header.svg" width="100%" alt="Operator loadout header"/>
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,helm,linux&perline=8&theme=light" alt="Cloud"/>
-<img src="https://skillicons.dev/icons?i=github,gitlab,jenkins,ansible,prometheus,grafana,python,go&perline=8&theme=light" alt="CI/CD"/>
-<img src="https://skillicons.dev/icons?i=java,kafka,redis,postgres,mysql,nginx,vault,git&perline=8&theme=light" alt="Data"/>
-
-<br/>
+<img src="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,helm,linux&perline=8&theme=light" alt="Cloud core"/>
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=github,gitlab,jenkins,ansible,prometheus,grafana,python,go&perline=8&theme=light" alt="Platform tools"/>
+<br/><br/>
+<img src="https://skillicons.dev/icons?i=java,kafka,redis,postgres,mysql,nginx,vault,git&perline=8&theme=light" alt="Data and runtime"/>
+<br/><br/>
 
 <img src="https://img.shields.io/badge/ArgoCD-GitOps-FFFFFF?style=flat&labelColor=000000" alt="ArgoCD"/>
-<img src="https://img.shields.io/badge/OpenTelemetry-Observability-FFFFFF?style=flat&labelColor=ED1D24" alt="OTel"/>
+<img src="https://img.shields.io/badge/OpenTelemetry-Observability-FFFFFF?style=flat&labelColor=ED1D24" alt="OpenTelemetry"/>
 <img src="https://img.shields.io/badge/Datadog-Monitoring-FFFFFF?style=flat&labelColor=000000" alt="Datadog"/>
 <img src="https://img.shields.io/badge/OpenSearch-Logs-FFFFFF?style=flat&labelColor=ED1D24" alt="OpenSearch"/>
 <img src="https://img.shields.io/badge/Cloudflare-Edge-FFFFFF?style=flat&labelColor=000000" alt="Cloudflare"/>
@@ -22,6 +27,14 @@
 <img src="https://img.shields.io/badge/Ollama-Local_LLM-FFFFFF?style=flat&labelColor=ED1D24" alt="Ollama"/>
 <img src="https://img.shields.io/badge/vLLM-GPU_Inference-FFFFFF?style=flat&labelColor=000000" alt="vLLM"/>
 <img src="https://img.shields.io/badge/MCP-Protocol-FFFFFF?style=flat&labelColor=ED1D24" alt="MCP"/>
+
+<br/><br/>
+
+<img src="https://user-images.githubusercontent.com/74038190/2127496015198260214914b707121a955ffeb0d2.gif" width="72" alt="Float"/>
+
+</td>
+</tr>
+</table>
 
 <br/><br/>
 

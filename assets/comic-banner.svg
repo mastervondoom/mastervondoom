@@ -1,73 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Comic book banner">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="Comic loadout banner with DevOps tools">
   <defs>
     <pattern id="halftone" width="8" height="8" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="1.2" fill="#000000" opacity="0.08"/>
+      <circle cx="2" cy="2" r="1.2" fill="#000000" opacity="0.07"/>
     </pattern>
     <pattern id="halftone-red" width="10" height="10" patternUnits="userSpaceOnUse">
-      <circle cx="2.5" cy="2.5" r="1.4" fill="#ED1D24" opacity="0.12"/>
+      <circle cx="2.5" cy="2.5" r="1.4" fill="#ED1D24" opacity="0.1"/>
     </pattern>
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#FFF8E7"/>
-    </linearGradient>
+    <filter id="stickerShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
   </defs>
 
-  <!-- Base panel -->
-  <rect width="1200" height="220" fill="url(#sky)"/>
-  <rect width="1200" height="220" fill="url(#halftone)"/>
-  <rect x="8" y="8" width="1184" height="204" rx="18" fill="none" stroke="#000000" stroke-width="4"/>
-  <rect x="14" y="14" width="1172" height="192" rx="14" fill="none" stroke="#FFE135" stroke-width="3"/>
+  <!-- Panel -->
+  <rect width="1200" height="400" fill="#FFFDF5"/>
+  <rect width="1200" height="400" fill="url(#halftone)"/>
+  <rect x="8" y="8" width="1184" height="384" rx="18" fill="none" stroke="#000000" stroke-width="4"/>
+  <rect x="14" y="14" width="1172" height="372" rx="14" fill="none" stroke="#FFE135" stroke-width="3"/>
 
-  <!-- Speed lines left -->
-  <g stroke="#000000" stroke-width="2" opacity="0.12">
-    <line x1="30" y1="40" x2="180" y2="55"/>
-    <line x1="20" y1="70" x2="200" y2="78"/>
-    <line x1="35" y1="100" x2="190" y2="108"/>
-    <line x1="25" y1="130" x2="175" y2="140"/>
-    <line x1="40" y1="160" x2="185" y2="168"/>
-    <line x1="15" y1="185" x2="195" y2="192"/>
+  <!-- Corner bursts (kept small so center stays clear) -->
+  <g transform="translate(72,52)">
+    <polygon points="0,-24 8,-8 24,0 8,8 0,24 -8,8 -24,0 -8,-8" fill="#FFE135" stroke="#000000" stroke-width="2.5"/>
+  </g>
+  <g transform="translate(1128,52)">
+    <polygon points="0,-22 8,-8 22,0 8,8 0,22 -8,8 -22,0 -8,-8" fill="#ED1D24" stroke="#000000" stroke-width="2.5"/>
+  </g>
+  <path d="M 150 42 L 140 62 L 154 62 L 144 86 L 168 58 L 154 58 L 162 42 Z" fill="#FFE135" stroke="#000000" stroke-width="2"/>
+  <path d="M 1050 42 L 1040 62 L 1054 62 L 1044 86 L 1068 58 L 1054 58 L 1062 42 Z" fill="#FFE135" stroke="#000000" stroke-width="2"/>
+
+  <!-- Stars -->
+  <g fill="#FFE135" stroke="#000000" stroke-width="1.5">
+    <polygon points="220,48 223,56 232,56 225,61 228,70 220,65 212,70 215,61 208,56 217,56"/>
+    <polygon points="980,340 983,348 992,348 985,353 988,362 980,357 972,362 975,353 968,348 977,348"/>
+    <polygon points="180,330 183,337 191,337 185,342 188,350 180,345 172,350 175,342 169,337 177,337"/>
   </g>
 
-  <!-- Speed lines right -->
-  <g stroke="#000000" stroke-width="2" opacity="0.12">
-    <line x1="1020" y1="45" x2="1170" y2="58"/>
-    <line x1="1000" y1="75" x2="1180" y2="82"/>
-    <line x1="1015" y1="105" x2="1175" y2="112"/>
-    <line x1="1005" y1="135" x2="1185" y2="145"/>
-    <line x1="1025" y1="165" x2="1170" y2="172"/>
+  <!-- Comic stamp -->
+  <g transform="translate(600,42)">
+    <rect x="-95" y="-16" width="190" height="32" rx="8" fill="#FFE135" stroke="#000000" stroke-width="2.5"/>
+    <text x="0" y="6" text-anchor="middle" fill="#000000" font-family="Impact, Arial Black, sans-serif" font-size="18" letter-spacing="2">OPERATOR LOADOUT</text>
   </g>
 
-  <!-- POW burst top-left -->
-  <g transform="translate(95,48)">
-    <polygon points="0,-34 12,-12 34,0 12,12 0,34 -12,12 -34,0 -12,-12" fill="#FFE135" stroke="#000000" stroke-width="3"/>
-    <circle cx="0" cy="0" r="52" fill="url(#halftone-red)"/>
+  <!-- Floating sticker rows — DevOps & cloud tools -->
+  <g filter="url(#stickerShadow)">
+    <image xlink:href="https://skillicons.dev/icons?i=aws,azure,gcp,kubernetes,docker,terraform,helm,linux&amp;perline=8&amp;theme=light" x="120" y="78" width="960" height="48"/>
+    <image xlink:href="https://skillicons.dev/icons?i=github,gitlab,jenkins,ansible,prometheus,grafana,python,go&amp;perline=8&amp;theme=light" x="120" y="148" width="960" height="48"/>
+    <image xlink:href="https://skillicons.dev/icons?i=java,kafka,redis,postgres,mysql,nginx,vault,git&amp;perline=8&amp;theme=light" x="120" y="218" width="960" height="48"/>
   </g>
 
-  <!-- ZAP burst top-right -->
-  <g transform="translate(1105,52)">
-    <polygon points="0,-28 10,-10 28,0 10,10 0,28 -10,10 -28,0 -10,-10" fill="#ED1D24" stroke="#000000" stroke-width="3"/>
+  <!-- Sticker pills row -->
+  <g font-family="Arial, sans-serif" font-size="11" font-weight="700">
+    <rect x="95" y="292" width="88" height="26" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="2"/><text x="139" y="309" text-anchor="middle" fill="#000">ArgoCD</text>
+    <rect x="195" y="292" width="108" height="26" rx="6" fill="#FFFFFF" stroke="#ED1D24" stroke-width="2"/><text x="249" y="309" text-anchor="middle" fill="#000">OpenTelemetry</text>
+    <rect x="315" y="292" width="88" height="26" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="2"/><text x="359" y="309" text-anchor="middle" fill="#000">Datadog</text>
+    <rect x="415" y="292" width="100" height="26" rx="6" fill="#FFFFFF" stroke="#ED1D24" stroke-width="2"/><text x="465" y="309" text-anchor="middle" fill="#000">OpenSearch</text>
+    <rect x="527" y="292" width="96" height="26" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="2"/><text x="575" y="309" text-anchor="middle" fill="#000">Cloudflare</text>
+    <rect x="635" y="292" width="96" height="26" rx="6" fill="#FFFFFF" stroke="#ED1D24" stroke-width="2"/><text x="683" y="309" text-anchor="middle" fill="#000">SonarQube</text>
+    <rect x="743" y="292" width="72" height="26" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="2"/><text x="779" y="309" text-anchor="middle" fill="#000">Trivy</text>
+    <rect x="827" y="292" width="88" height="26" rx="6" fill="#FFFFFF" stroke="#ED1D24" stroke-width="2"/><text x="871" y="309" text-anchor="middle" fill="#000">LangGraph</text>
+    <rect x="927" y="292" width="80" height="26" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="2"/><text x="967" y="309" text-anchor="middle" fill="#000">CrewAI</text>
+    <rect x="1019" y="292" width="72" height="26" rx="6" fill="#FFFFFF" stroke="#ED1D24" stroke-width="2"/><text x="1055" y="309" text-anchor="middle" fill="#000">Ollama</text>
+    <rect x="95" y="332" width="64" height="26" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="2"/><text x="127" y="349" text-anchor="middle" fill="#000">vLLM</text>
+    <rect x="171" y="332" width="64" height="26" rx="6" fill="#FFFFFF" stroke="#ED1D24" stroke-width="2"/><text x="203" y="349" text-anchor="middle" fill="#000">MCP</text>
+    <rect x="247" y="332" width="88" height="26" rx="6" fill="#FFFFFF" stroke="#000000" stroke-width="2"/><text x="291" y="349" text-anchor="middle" fill="#000">WhisperX</text>
   </g>
 
-  <!-- Star doodles -->
-  <g fill="#FFE135" stroke="#000000" stroke-width="2">
-    <polygon points="560,28 565,40 578,40 568,48 572,62 560,54 548,62 552,48 542,40 555,40"/>
-    <polygon points="640,175 644,183 653,183 646,189 649,198 640,192 631,198 634,189 627,183 636,183"/>
-    <polygon points="320,170 324,178 333,178 326,184 329,193 320,187 311,193 314,184 307,178 316,178"/>
+  <!-- Speed lines bottom -->
+  <g stroke="#000000" stroke-width="1.5" opacity="0.08">
+    <line x1="40" y1="360" x2="200" y2="370"/>
+    <line x1="1000" y1="365" x2="1160" y2="355"/>
   </g>
-
-  <!-- Lightning doodle -->
-  <path d="M 890 42 L 878 68 L 892 68 L 880 98 L 910 60 L 896 60 L 908 42 Z" fill="#FFE135" stroke="#000000" stroke-width="2.5"/>
-
-  <!-- Comic dots accent -->
-  <g fill="#ED1D24" opacity="0.85">
-    <circle cx="480" cy="36" r="5"/>
-    <circle cx="495" cy="36" r="5"/>
-    <circle cx="510" cy="36" r="5"/>
-    <circle cx="690" cy="188" r="4"/>
-    <circle cx="703" cy="188" r="4"/>
-    <circle cx="716" cy="188" r="4"/>
-  </g>
-
-  <!-- Bottom action swoosh -->
-  <path d="M 120 185 Q 600 210 1080 185" fill="none" stroke="#ED1D24" stroke-width="3" stroke-dasharray="10 8" opacity="0.35"/>
 </svg>

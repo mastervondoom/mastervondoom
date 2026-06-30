@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90" role="img" aria-label="Comic panel header">
+  <defs>
+    <pattern id="halftone" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#000000" opacity="0.07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="90" fill="#FFFDF5"/>
+  <rect width="1200" height="90" fill="url(#halftone)"/>
+  <g transform="translate(60,45)">
+    <polygon points="0,-20 7,-7 20,0 7,7 0,20 -7,7 -20,0 -7,-7" fill="#FFE135" stroke="#000000" stroke-width="2"/>
+  </g>
+  <g transform="translate(1140,45)">
+    <polygon points="0,-18 7,-7 18,0 7,7 0,18 -7,7 -18,0 -7,-7" fill="#ED1D24" stroke="#000000" stroke-width="2"/>
+  </g>
+  <path d="M 130 30 L 122 48 L 134 48 L 126 66 L 146 44 L 134 44 L 140 30 Z" fill="#FFE135" stroke="#000000" stroke-width="2"/>
+  <path d="M 1070 30 L 1062 48 L 1074 48 L 1066 66 L 1086 44 L 1074 44 L 1080 30 Z" fill="#FFE135" stroke="#000000" stroke-width="2"/>
+  <g transform="translate(600,45)">
+    <rect x="-110" y="-18" width="220" height="36" rx="8" fill="#FFE135" stroke="#000000" stroke-width="2.5"/>
+    <text x="0" y="7" text-anchor="middle" fill="#000000" font-family="Impact, Arial Black, sans-serif" font-size="20" letter-spacing="2">OPERATOR LOADOUT</text>
+  </g>
+</svg>
