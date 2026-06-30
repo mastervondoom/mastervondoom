@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" role="img" aria-label="Comic book banner">
+  <defs>
+    <pattern id="halftone" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#000000" opacity="0.08"/>
+    </pattern>
+    <pattern id="halftone-red" width="10" height="10" patternUnits="userSpaceOnUse">
+      <circle cx="2.5" cy="2.5" r="1.4" fill="#ED1D24" opacity="0.12"/>
+    </pattern>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF8E7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base panel -->
+  <rect width="1200" height="220" fill="url(#sky)"/>
+  <rect width="1200" height="220" fill="url(#halftone)"/>
+  <rect x="8" y="8" width="1184" height="204" rx="18" fill="none" stroke="#000000" stroke-width="4"/>
+  <rect x="14" y="14" width="1172" height="192" rx="14" fill="none" stroke="#FFE135" stroke-width="3"/>
+
+  <!-- Speed lines left -->
+  <g stroke="#000000" stroke-width="2" opacity="0.12">
+    <line x1="30" y1="40" x2="180" y2="55"/>
+    <line x1="20" y1="70" x2="200" y2="78"/>
+    <line x1="35" y1="100" x2="190" y2="108"/>
+    <line x1="25" y1="130" x2="175" y2="140"/>
+    <line x1="40" y1="160" x2="185" y2="168"/>
+    <line x1="15" y1="185" x2="195" y2="192"/>
+  </g>
+
+  <!-- Speed lines right -->
+  <g stroke="#000000" stroke-width="2" opacity="0.12">
+    <line x1="1020" y1="45" x2="1170" y2="58"/>
+    <line x1="1000" y1="75" x2="1180" y2="82"/>
+    <line x1="1015" y1="105" x2="1175" y2="112"/>
+    <line x1="1005" y1="135" x2="1185" y2="145"/>
+    <line x1="1025" y1="165" x2="1170" y2="172"/>
+  </g>
+
+  <!-- POW burst top-left -->
+  <g transform="translate(95,48)">
+    <polygon points="0,-34 12,-12 34,0 12,12 0,34 -12,12 -34,0 -12,-12" fill="#FFE135" stroke="#000000" stroke-width="3"/>
+    <circle cx="0" cy="0" r="52" fill="url(#halftone-red)"/>
+  </g>
+
+  <!-- ZAP burst top-right -->
+  <g transform="translate(1105,52)">
+    <polygon points="0,-28 10,-10 28,0 10,10 0,28 -10,10 -28,0 -10,-10" fill="#ED1D24" stroke="#000000" stroke-width="3"/>
+  </g>
+
+  <!-- Star doodles -->
+  <g fill="#FFE135" stroke="#000000" stroke-width="2">
+    <polygon points="560,28 565,40 578,40 568,48 572,62 560,54 548,62 552,48 542,40 555,40"/>
+    <polygon points="640,175 644,183 653,183 646,189 649,198 640,192 631,198 634,189 627,183 636,183"/>
+    <polygon points="320,170 324,178 333,178 326,184 329,193 320,187 311,193 314,184 307,178 316,178"/>
+  </g>
+
+  <!-- Lightning doodle -->
+  <path d="M 890 42 L 878 68 L 892 68 L 880 98 L 910 60 L 896 60 L 908 42 Z" fill="#FFE135" stroke="#000000" stroke-width="2.5"/>
+
+  <!-- Comic dots accent -->
+  <g fill="#ED1D24" opacity="0.85">
+    <circle cx="480" cy="36" r="5"/>
+    <circle cx="495" cy="36" r="5"/>
+    <circle cx="510" cy="36" r="5"/>
+    <circle cx="690" cy="188" r="4"/>
+    <circle cx="703" cy="188" r="4"/>
+    <circle cx="716" cy="188" r="4"/>
+  </g>
+
+  <!-- Bottom action swoosh -->
+  <path d="M 120 185 Q 600 210 1080 185" fill="none" stroke="#ED1D24" stroke-width="3" stroke-dasharray="10 8" opacity="0.35"/>
+</svg>
