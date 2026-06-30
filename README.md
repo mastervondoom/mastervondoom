@@ -1,5 +1,7 @@
 <!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:6366F1,100:3B82F6&height=220&section=header&text=Manan%20Paliwal&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DevOps%20%26%20Cloud%20Platform%20Engineer&descSize=18&descAlignY=58&descAlign=50" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:6366F1,100:3B82F6&height=220&section=header&text=Manan%20Paliwal&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DevOps%20%26%20Cloud%20Platform%20Engineer&descSize=18&descAlignY=58&descAlign=50" width="100%"/>
+</div>
 
 <!-- Typing Animation -->
 <p align="center">
@@ -16,7 +18,9 @@
 </p>
 
 <!-- Animated Divider -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=%F0%9F%A7%A0%20Philosophy%20%26%20Impact&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:3B82F6&animation=twinkling" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=Philosophy%20%26%20Impact&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:3B82F6&animation=twinkling" width="100%"/>
+</div>
 
 <!-- Two Column Hero -->
 <table>
@@ -78,25 +82,33 @@ class MananPaliwal:
 </table>
 
 <!-- Tech Stack Section -->
-<img src="https://capsule-render.vercel.app/api?type=venom&height=50&section=header&text=%E2%98%81%EF%B8%8F%20Cloud%20%26%20Infrastructure&fontSize=20&fontColor=ffffff&color=0:1e1b4b,100:7C3AED&animation=blink" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=Cloud%20%26%20Infrastructure&fontSize=20&fontColor=ffffff&color=0:1e1b4b,100:7C3AED&animation=twinkling" width="100%"/>
+</div>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=aws,azure,gcp,terraform,ansible,docker,linux,bash&perline=8&theme=dark" alt="Cloud and IaC"/>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=50&section=header&text=%F0%9F%90%B3%20Containers%20%26%20CI%2FCD&fontSize=20&fontColor=ffffff&color=0:1e1b4b,100:6366F1&animation=blink" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=Containers%20%26%20CI%2FCD&fontSize=20&fontColor=ffffff&color=0:1e1b4b,100:6366F1&animation=twinkling" width="100%"/>
+</div>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=kubernetes,docker,jenkins,githubactions,gitlab,postgres,mysql,redis&perline=8&theme=dark" alt="Containers and CI/CD"/>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=50&section=header&text=%F0%9F%93%A1%20Observability%20%26%20Languages&fontSize=20&fontColor=ffffff&color=0:1e1b4b,100:3B82F6&animation=blink" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=Observability%20%26%20Languages&fontSize=20&fontColor=ffffff&color=0:1e1b4b,100:3B82F6&animation=twinkling" width="100%"/>
+</div>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=prometheus,grafana,python,go,java,kafka,nginx,git&perline=8&theme=dark" alt="Observability and languages"/>
 </p>
 
-<img src="https://capsule-render.vercel.app/api?type=venom&height=50&section=header&text=%F0%9F%A4%96%20AI%20Infrastructure%20%28The%20Differentiator%29&fontSize=20&fontColor=ffffff&color=0:4c1d95,100:8B5CF6&animation=twinkling" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=AI%20Infrastructure%20%28The%20Differentiator%29&fontSize=20&fontColor=ffffff&color=0:4c1d95,100:8B5CF6&animation=twinkling" width="100%"/>
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/LangGraph-Multi--Agent_Orchestration-8B5CF6?style=for-the-badge&logo=graphql&logoColor=white" alt="LangGraph"/>
@@ -108,7 +120,9 @@ class MananPaliwal:
 </p>
 
 <!-- About Me -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=%F0%9F%91%8B%20About%20Me&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:3B82F6&animation=fadeIn" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=About%20Me&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:3B82F6&animation=twinkling" width="100%"/>
+</div>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/2122571101864689442665bba7b5fce0029a9ede.gif" width="80" alt="Developer"/>
@@ -127,7 +141,9 @@ Currently building production platforms at **Kadel Labs** · **RHCSA Certified**
 ---
 
 <!-- Persona Section -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=%F0%9F%8E%AF%20A%20Few%20Things%20About%20Me&fontSize=22&fontColor=ffffff&color=0:6366F1,100:7C3AED&animation=twinkling" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=A%20Few%20Things%20About%20Me&fontSize=22&fontColor=ffffff&color=0:6366F1,100:7C3AED&animation=twinkling" width="100%"/>
+</div>
 
 | | |
 |:---:|:---|
@@ -141,7 +157,9 @@ Currently building production platforms at **Kadel Labs** · **RHCSA Certified**
 ---
 
 <!-- Featured Projects -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=%F0%9F%9A%80%20Featured%20Engineering%20Projects&fontSize=22&fontColor=ffffff&color=0:3B82F6,100:7C3AED&animation=fadeIn" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=Featured%20Engineering%20Projects&fontSize=22&fontColor=ffffff&color=0:3B82F6,100:7C3AED&animation=twinkling" width="100%"/>
+</div>
 
 <table>
 <tr>
@@ -190,7 +208,9 @@ Self-hosted LLM infra with **Ollama & vLLM**, multi-agent orchestration via MCP,
 ---
 
 <!-- Experience Timeline -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=%F0%9F%92%BC%20Experience&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:6366F1&animation=twinkling" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=Experience&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:6366F1&animation=twinkling" width="100%"/>
+</div>
 
 ```
   2026 ──●── Kadel Labs          DevOps Engineer        AWS · GCP · Proxmox · AI Infra
@@ -202,7 +222,9 @@ Self-hosted LLM infra with **Ollama & vLLM**, multi-agent orchestration via MCP,
 ---
 
 <!-- Certifications -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=%F0%9F%8F%86%20Certifications%20%26%20Education&fontSize=22&fontColor=ffffff&color=0:EE0000,100:7C3AED&animation=fadeIn" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=Certifications%20%26%20Education&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:3B82F6&animation=twinkling" width="100%"/>
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Red_Hat-RHCSA_2025-EE0000?style=for-the-badge&logo=redhat&logoColor=white" alt="RHCSA"/>
@@ -214,16 +236,18 @@ Self-hosted LLM infra with **Ollama & vLLM**, multi-agent orchestration via MCP,
 ---
 
 <!-- GitHub Stats -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=%F0%9F%93%88%20GitHub%20Analytics&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:3B82F6&animation=blink" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=GitHub%20Analytics&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:3B82F6&animation=twinkling" width="100%"/>
+</div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mastervondoom&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=3B82F6&text_color=FFFFFF&rank_icon=percentile&include_all_commits=true&count_private=true" height="180" alt="GitHub Stats"/>
-  <img src="https://github-readme-streak-stats.demolab.com?user=mastervondoom&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED&sideLabels=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF" height="180" alt="GitHub Streak"/>
+  <img src="https://github-readme-stats-alpha.vercel.app/api?username=mastervondoom&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&icon_color=3B82F6&text_color=FFFFFF&rank_icon=percentile&include_all_commits=true" height="180" alt="GitHub Stats"/>
+  <img src="https://streak-stats.demolab.com?user=mastervondoom&theme=tokyonight&hide_border=true&background=0D1117&ring=7C3AED&fire=7C3AED&currStreakLabel=7C3AED&sideLabels=FFFFFF&dates=FFFFFF&currStreakNum=FFFFFF&sideNums=FFFFFF" height="180" alt="GitHub Streak"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mastervondoom&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=FFFFFF&langs_count=8" height="180" alt="Top Languages"/>
-  <img src="https://github-profile-trophy.vercel.app/?username=mastervondoom&theme=discord&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" height="180" alt="GitHub Trophies"/>
+  <img src="https://github-readme-stats-alpha.vercel.app/api/top-langs/?username=mastervondoom&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED&text_color=FFFFFF&langs_count=8" height="180" alt="Top Languages"/>
+  <img src="https://github-profile-trophy-gamma.vercel.app/?username=mastervondoom&theme=discord&no-frame=true&no-bg=true&column=4&margin-w=15&margin-h=15" height="180" alt="GitHub Trophies"/>
 </p>
 
 <!-- Activity Graph -->
@@ -232,8 +256,11 @@ Self-hosted LLM infra with **Ollama & vLLM**, multi-agent orchestration via MCP,
 </p>
 
 <!-- Contribution Snake -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=%F0%9F%90%8D%20Contribution%20Snake&fontSize=22&fontColor=ffffff&color=0:22C55E,100:7C3AED&animation=twinkling" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=Contribution%20Snake&fontSize=22&fontColor=ffffff&color=0:22C55E,100:7C3AED&animation=twinkling" width="100%"/>
+</div>
 
+<!-- Snake appears after running the "Generate Snake" GitHub Action once -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mastervondoom/mastervondoom/output/github-contribution-grid-snake-dark.gif">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mastervondoom/mastervondoom/output/github-contribution-grid-snake.gif">
@@ -243,7 +270,9 @@ Self-hosted LLM infra with **Ollama & vLLM**, multi-agent orchestration via MCP,
 ---
 
 <!-- Open for Opportunities -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:3B82F6&height=120&section=header&text=%F0%9F%92%AC%20Open%20for%20Opportunities&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Let%E2%80%99s%20build%20something%20reliable%20together&descSize=16&descAlignY=60&descAlign=50" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,100:3B82F6&height=120&section=header&text=Open%20for%20Opportunities&fontSize=28&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Let%E2%80%99s%20build%20something%20reliable%20together&descSize=16&descAlignY=60&descAlign=50" width="100%"/>
+</div>
 
 <p align="center">
   <img src="https://img.shields.io/badge/DevOps_Engineer-Open-7C3AED?style=for-the-badge&logo=devops&logoColor=white" alt="DevOps"/>
@@ -256,7 +285,9 @@ Self-hosted LLM infra with **Ollama & vLLM**, multi-agent orchestration via MCP,
 ---
 
 <!-- Connect -->
-<img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=%F0%9F%A4%9D%20Let%E2%80%99s%20Connect&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:3B82F6&animation=twinkling" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=soft&height=50&section=header&text=Let%E2%80%99s%20Connect&fontSize=22&fontColor=ffffff&color=0:7C3AED,100:3B82F6&animation=twinkling" width="100%"/>
+</div>
 
 <p align="center">
   <a href="mailto:mananpaiwal30@gmail.com">
@@ -275,7 +306,9 @@ Self-hosted LLM infra with **Ollama & vLLM**, multi-agent orchestration via MCP,
 </p>
 
 <!-- Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,50:7C3AED,100:6366F1&height=100&section=footer&text=Thanks%20for%20visiting!%20%E2%AD%90&fontSize=24&fontColor=ffffff&animation=fadeIn" width="100%"/>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3B82F6,50:7C3AED,100:6366F1&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=24&fontColor=ffffff&animation=fadeIn" width="100%"/>
+</div>
 
 <p align="center">
   <i>⚡ Building cloud platforms that scale apps — and AI workloads</i>
